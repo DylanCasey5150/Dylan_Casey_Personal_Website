@@ -1,0 +1,65 @@
+.About_Wrapper {
+  font-size: 16px;
+}
+
+.About_Header {
+  font-size: 1.5em;
+  position: relative;
+  padding-top: 50%;
+
+  text-align: center;
+}
+
+.Programming_Languages_Header {
+  padding-top: 20%;
+  padding-left: 8%;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.Programming_Languages_Content {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Related_Technology_Header {
+  padding-top: 10%;
+  padding-left: 8%;
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.Related_Technology_Content {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.Related_Courses_Header {
+  padding-top: 10%;
+  padding-left: 8%;
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.Related_Courses_Content {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (min-width: 500px) {
+  .About_Wrapper {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .About_Wrapper {
+    display: none;
+  }
+}

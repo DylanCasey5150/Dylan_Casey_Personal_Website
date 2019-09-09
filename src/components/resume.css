@@ -1,0 +1,36 @@
+.Resume_Wrapper {
+  display: none;
+}
+
+.Resume_Header {
+  font-size: 1.5em;
+  position: relative;
+  padding-top: 15%;
+  text-align: center;
+}
+
+.Resume_Line {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #00bfc4;
+}
+
+.Resume_Image {
+  padding-top: 15%;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+@media (min-width: 500px) {
+  .Resume_Wrapper {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Resume_Wrapper {
+    display: unset;
+  }
+}
