@@ -2,7 +2,7 @@
   "name": "dylan_casey_personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DylanCasey5150/Dylan_Casey_Personal_Website.git",
+  "homepage": "https://dylancasey5150.github.io/Dylan_Casey_Personal_Website/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
@@ -21,11 +21,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
